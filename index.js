@@ -23,7 +23,7 @@ module.exports = {
   ],
   ignorePatterns: ["dist", ".eslintrc.cjs"],
   parser: "@typescript-eslint/parser",
-  plugins: ["react-refresh"],
+  plugins: ["react-refresh", "simple-import-sort", "prettier", "react-hooks"],
   rules: {
     "react-refresh/only-export-components": [
       "warn",
