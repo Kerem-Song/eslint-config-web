@@ -37,8 +37,18 @@ module.exports = {
     "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/ban-ts-comment": "off",
     "@typescript-eslint/no-unsafe-assignment": "off",
-    "simple-import-sort/imports": "error",
-    "simple-import-sort/exports": "error",
+    "simple-import-sort/imports": [
+      "error",
+      {
+        groups: [["^react"], ["^@?\\w"], ["@/(.*)"], ["^[./]"]],
+      },
+    ],
+    "simple-import-sort/exports": [
+      "error",
+      {
+        groups: [["^react"], ["^@?\\w"], ["@/(.*)"], ["^[./]"]],
+      },
+    ],
   },
 
   overrides: [
