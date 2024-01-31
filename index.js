@@ -18,7 +18,6 @@ module.exports = {
     "plugin:@typescript-eslint/recommended-type-checked",
     "plugin:react-hooks/recommended",
     "plugin:storybook/recommended",
-    "plugin:tailwindcss/recommended",
     "plugin:prettier/recommended",
   ],
   ignorePatterns: ["dist", ".eslintrc.cjs"],
@@ -43,12 +42,7 @@ module.exports = {
         groups: [["^react"], ["^@?\\w"], ["@/(.*)"], ["^[./]"]],
       },
     ],
-    "simple-import-sort/exports": [
-      "error",
-      {
-        groups: [["^react"], ["^@?\\w"], ["@/(.*)"], ["^[./]"]],
-      },
-    ],
+    "simple-import-sort/exports": ["error"],
   },
 
   overrides: [
