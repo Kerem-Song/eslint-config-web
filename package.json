@@ -1,6 +1,6 @@
 {
   "name": "@lunasoft-org/eslint-config-web",
-  "version": "0.0.29",
+  "version": "0.0.30",
   "license": "UNLICENSED",
   "main": "index.js",
   "repository": "https://github.com/lunasoft-org/eslint-config-web",
