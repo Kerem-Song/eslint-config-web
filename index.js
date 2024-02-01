@@ -36,7 +36,7 @@ module.exports = {
     "simple-import-sort/imports": [
       "error",
       {
-        groups: [["^react"], ["^@?\\w"], ["@/(.*)"], ["^[./]"]],
+        groups: [["^react"], ["^antd"], ["^@?\\w"], ["@/(.*)"], ["^[./]"]],
       },
     ],
     "simple-import-sort/exports": "error",
