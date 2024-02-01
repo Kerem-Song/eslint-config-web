@@ -1,24 +1,21 @@
 module.exports = {
   root: true,
-  env: {
-    es2020: true,
-    browser: true,
-  },
+  env: { browser: true, es2020: true },
   parserOptions: {
     ecmaVersion: 2020,
     sourceType: "module",
     ecmaFeatures: {
       jsx: true,
     },
-    project: "./tsconfig.json",
+    project: ["./tsconfig.json"],
     tsconfigRootDir: __dirname,
   },
   extends: [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended-type-checked",
+    "plugin:prettier/recommended",
     "plugin:react-hooks/recommended",
     "plugin:storybook/recommended",
-    "plugin:prettier/recommended",
   ],
   ignorePatterns: ["dist", ".eslintrc.cjs"],
   parser: "@typescript-eslint/parser",
@@ -42,9 +39,8 @@ module.exports = {
         groups: [["^react"], ["^@?\\w"], ["@/(.*)"], ["^[./]"]],
       },
     ],
-    "simple-import-sort/exports": ["error"],
+    "simple-import-sort/exports": "error",
   },
-
   overrides: [
     {
       files: ["*.ts", "*.tsx", "*.js"],
