@@ -13,9 +13,7 @@ module.exports = {
   extends: [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended-type-checked",
-    // "plugin:prettier/recommended",
     "plugin:react-hooks/recommended",
-    "plugin:storybook/recommended",
   ],
   ignorePatterns: ["dist", ".eslintrc.cjs"],
   parser: "@typescript-eslint/parser",

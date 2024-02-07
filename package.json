@@ -1,6 +1,6 @@
 {
   "name": "@lunasoft-org/eslint-config-web",
-  "version": "0.0.37",
+  "version": "0.0.46",
   "license": "UNLICENSED",
   "main": "index.js",
   "repository": "https://github.com/lunasoft-org/eslint-config-web",
@@ -11,30 +11,29 @@
   "publishConfig": {
     "access": "public"
   },
-  "devDependencies": {
+  "dependencies": {
     "@typescript-eslint/eslint-plugin": "^6.19.1",
     "@typescript-eslint/parser": "^6.19.1",
     "eslint": "^8.56.0",
-    "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-jsx-a11y": "^6.8.0",
     "eslint-plugin-react": "^7.33.2",
-    "eslint-plugin-react-hooks": "^4.6.0"
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "prettier-plugin-tailwindcss": "^0.5.11",
+    "eslint-plugin-prettier": "^5.0.1",
+    "typescript": "^5.2.2"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.19.1",
     "@typescript-eslint/parser": "^6.19.1",
     "eslint": "^8.56.0",
-    "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-jsx-a11y": "^6.8.0",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "prettier-plugin-tailwindcss": "^0.5.11",
-    "prettier": "^3.2.4",
-    "react": "^18.2.0",
-    "typescript": "^5.0.2",
-    "tailwindcss": "^3.3.5",
-    "storybook": "^7.5.3"
+    "eslint-plugin-prettier": "^5.0.1",
+    "typescript": "^5.2.2"
   },
   "packageManager": "yarn@4.0.2"
 }
